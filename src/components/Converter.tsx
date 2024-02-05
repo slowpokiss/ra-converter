@@ -9,7 +9,7 @@ export default function Converter( value : string | undefined) {
     if (!result) {
       return null;
     }
-    return `rbg(${[
+    return `rgb(${[
       parseInt(result[1], 16),
       parseInt(result[2], 16),
       parseInt(result[3], 16),

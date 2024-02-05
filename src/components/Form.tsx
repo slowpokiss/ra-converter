@@ -19,7 +19,6 @@ export default function Form() {
       setConverted({
         backgroundColor: result,
       });
-      console.log(result);
     } else {
       setConverted({});
     }
